@@ -33,7 +33,7 @@ export class CouponsEntity {
   @Column()
   discount_rate: string;
 
-  @Column()
+  @Column({ default: 0 })
   useCount: number;
 
   @CreateDateColumn()
@@ -45,5 +45,3 @@ export class CouponsEntity {
   @DeleteDateColumn()
   deleteAt: Date;
 }
-
-
