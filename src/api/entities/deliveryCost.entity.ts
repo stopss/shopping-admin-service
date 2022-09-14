@@ -3,7 +3,6 @@ import {
   CreateDateColumn,
   DeleteDateColumn,
   Entity,
-  PrimaryColumn,
   PrimaryGeneratedColumn,
   UpdateDateColumn,
 } from 'typeorm';
@@ -46,6 +45,8 @@ export class DeliveryCostEntity {
   @Column()
   Malaysia: number;
 
+  // --------------------------------
+
   @Column()
   New_Zealand: number;
 
@@ -75,6 +76,8 @@ export class DeliveryCostEntity {
 
   @Column()
   Vietnam: number;
+
+  // --------------------------------
 
   @Column()
   Cambodia: number;
@@ -106,6 +109,8 @@ export class DeliveryCostEntity {
   @Column()
   Maldives: number;
 
+  // --------------------------------
+
   @Column()
   Nepal: number;
 
@@ -135,6 +140,8 @@ export class DeliveryCostEntity {
 
   @Column()
   Bulgaria: number;
+
+  // --------------------------------
 
   @Column()
   Bosnia_And_Herzegovina: number;
@@ -166,6 +173,8 @@ export class DeliveryCostEntity {
   @Column()
   Hungary: number;
 
+  // --------------------------------
+
   @Column()
   Iran: number;
 
@@ -196,6 +205,8 @@ export class DeliveryCostEntity {
   @Column()
   Norway: number;
 
+  // --------------------------------
+
   @Column()
   Oman: number;
 
@@ -212,6 +223,9 @@ export class DeliveryCostEntity {
   Qatar: number;
 
   @Column()
+  Romania: number;
+
+  @Column()
   Saudi_Arabia: number;
 
   @Column()
@@ -222,6 +236,8 @@ export class DeliveryCostEntity {
 
   @Column()
   Sweden: number;
+
+  // --------------------------------
 
   @Column()
   Switzerland: number;
@@ -253,6 +269,8 @@ export class DeliveryCostEntity {
   @Column()
   Cape_Verde: number;
 
+  // --------------------------------
+
   @Column()
   Chile: number;
 
@@ -282,6 +300,8 @@ export class DeliveryCostEntity {
 
   @Column()
   Fiji: number;
+
+  // --------------------------------
 
   @Column()
   Kenya: number;
@@ -313,6 +333,8 @@ export class DeliveryCostEntity {
   @Column()
   Rwanda: number;
 
+  // --------------------------------
+  
   @Column()
   Tanzania: number;
 

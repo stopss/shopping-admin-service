@@ -4,6 +4,7 @@ import { TypeOrmModule } from '@nestjs/typeorm';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
 import { CouponModule } from './api/coupon/coupon.module';
+import { DataModule } from './api/data/data.module';
 
 @Module({
   imports: [
@@ -20,6 +21,7 @@ import { CouponModule } from './api/coupon/coupon.module';
       logging: true,
     }),
     CouponModule,
+    DataModule,
   ],
   controllers: [AppController],
   providers: [AppService],
